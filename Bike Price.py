@@ -27,7 +27,7 @@ bike_id	bike_price	bike_sold
 1014	652.99	N
 """
 
-import pandas as pd;
+import pandas as pd
 
 sales_data = inventory[(~inventory.bike_price.isna()) & (inventory.bike_sold=='Y')]
 
